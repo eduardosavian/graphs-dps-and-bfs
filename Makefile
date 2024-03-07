@@ -10,7 +10,7 @@ all: graph
 graph: main.o reader.o searcher.o
 	$(CC) -o graph $(OPATH)/main.o $(OPATH)/reader.o $(OPATH)/searcher.o $(CFLAGS)
 
-main.o: $(CPATH)/main.cpp reader.hpp searcher.hpp
+main.o: $(CPATH)/main.cpp $(CPATH)/utils/reader.hpp  $(CPATH)/algorithms/searcher.hpp
 	$(CC) -c -o $(OPATH)/main.o $(CPATH)/main.cpp $(CFLAGS)
 
 reader.o: $(CPATH)/utils/reader.cpp $(CPATH)/utils/reader.hpp
