@@ -4,6 +4,5 @@
 #include <iostream>
 #include <string>
 
-void plotGraphMatrix();
 
 #endif
