@@ -46,8 +46,7 @@ def create_graph_matrix(matrix: list) -> list:
         graph.append(row)
 
     for row in matrix:
-        for i in range(len(row)):
-            for j in range(len(row)):
-                if row[i] != row[j]:
-                    graph[charss.index(row[i])][charss.index(row[j])] = '1'
+        i = row[0]
+        for j in range(1, len(row)):
+            graph[j][charss.index(row[j])] = '1'
     return graph
