@@ -1,5 +1,13 @@
 # Build
 
+## Descrição
+
+- Feito por Eduardo Savian, Marcos Fehlauer, Pablo Marques
+
+
+
+## Run
+
 Em sistemas UNIX:
 ```
 $ ./build.sh
