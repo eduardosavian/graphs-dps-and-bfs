@@ -8,9 +8,16 @@
 
 ## Run
 
+### Windows
+
+```
+.\graph.exe
+```
+
+### Linux
 Em sistemas UNIX:
 ```
-$ ./build.sh
+$ ./graph
 ```
 
 O executável `graph` foi estaticamente compilado para Linux x86_64. O único
